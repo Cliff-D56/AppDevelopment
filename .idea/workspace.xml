@@ -9,7 +9,11 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b29f8060-3f49-4041-806d-0389574d813b" name="Changes" comment="" />
+    <list default="true" id="b29f8060-3f49-4041-806d-0389574d813b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaTest/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaTest/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaTest/.idea/other.xml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaTest/.idea/other.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,12 +37,12 @@
     &quot;assignee&quot;: &quot;Cliff-D56&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Cliff-D56/App-Development.git&quot;,
-    &quot;accountId&quot;: &quot;d750b339-e0c2-4e00-8892-0a3478260d26&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "git@github.com:Cliff-D56/AppDevelopment.git",
+    "accountId": "d750b339-e0c2-4e00-8892-0a3478260d26"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>

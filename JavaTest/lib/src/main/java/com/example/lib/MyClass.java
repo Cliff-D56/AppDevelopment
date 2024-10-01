@@ -1,8 +1,81 @@
 package com.example.lib;
 
 public class MyClass {
+    // TO WRITE COMMENTS USE THE // OR /* */
+
+    // MAIN METHOD SYNTAX USED TO RUN JAVA CODE
     public static void main(String[] args) {
-        char hi = '5';
-        System.out.println("Char test: "+(hi+hi));
+        // TO PRINT TO CONSOLE USE System.out.println();
+        System.out.print("This is how to talk to console");
+
+        // TO STORE VALUES IN WORDS USE VARIABLES
+        int variable = 2;
+        /*
+        THERE ARE 8 DIFFERENT TYPES OF PRIMITIVE VARIABLES FOR JAVA
+
+        BYTE: NUMBERS BETWEEN -128 TO 127
+        SHORT: NUMBERS BETWEEN -32768 TO 32767
+        INT: NUMBERS BETWEEN -2BILLION TO 2BILLION
+        LONG: NUMBERS EXPONENTIALLY BIGGER THAN BILLION (REQUIRES AN "L" AT THE END OF NUMBER)
+
+        FLOAT: NUMBERS WITH DECIMALS UP TO 7 (REQUIRES AN "F" AT THE END OF NUMBER)
+        DOUBLES: NUMBERS WITH DECIMALS UP TO 16
+
+        CHAR: LETTERS OR SYMBOLS (CAN ALSO PUT TEXT OPTIONS SUCH AS \n for new line and \t for tab)
+
+        BOOLEANS: TRUE OR FALSE VALUES
+
+        THERE ARE SEVERAL NON-PRIMITIVE DATA TYPES THAT INCLUDE OBJECTS
+
+        ARRAYS: STORES MULTIPLE SAME TYPE OF VALUES IN A SINGLE OBJECT
+        STRINGS: A STRING OF CHARS LIKE CREATING A SENTENCE
+        CLASS: BASICALLY A BLUEPRINT FOR CREATING OBJECTS
+         */
+
+        //VALUES CAN BE CHANGED FROM ONE VARIABLE DATA TYPE TO ANOTHER,
+        //THIS IS CALLED TYPE CASTING AND THERE ARE TWO TYPES
+
+        // IMPLICIT TYPE CASTING:
+        int numInt = 2;
+        double numDouble = numInt; // 2.0
+
+        // EXPLICIT TYPE CASTING:
+        double pi = 3.14;
+        int numPi = (int)pi; // 3
+        // *NOTE* pi loses .14 since it was converted into an integer and had no space for decimals
+
+        // TYPE CASTING TO VASTLY DIFFERENT DATA TYPES:
+        char myChar = (char)(numInt + 'A'); // C
+        // FIRST THE INT IS ADDED TO THE ASCII VALUE OF A(65) SO THE INSIDE WILL HAVE A VALUE OF 67
+        // THEN THAT VALUE WILL BE CONVERTED INTO THE ASCII TABLE AND WILL ASSIGN THAT CHAR VALUE TO THE VARIABLE
+
+        /*
+        THERE ARE OPERATORS THAT PERFORM FUNCTIONS USING SYMBOLS
+
+        ARITHMETIC
+
+        +: ADDS VALUES TOGETHER
+        -: SUBTRACTS VALUES
+        /: DIVIDE VALUES
+        //: DIVIDE VALUES BUT STOPS AT NEAREST WHOLE NUMBER
+        *: MULTIPLIES VALUES
+        %: DIVIDES VALUES AND GIVES REMAINDERS
+
+        COMPARISON (RETURNS TRUE OR FALSE)
+
+        ==: CHECKS EQUAL VALUES
+        ===: CHECKS EXACT VALUES
+        !=: CHECKS VALUES AREN'T THE SAME
+        <: CHECKS VALUES ARE SMALLER
+        <: CHECKS VALUES ARE SMALLER OR EQUAL TO
+        >: CHECKS VALUES ARE BIGGER
+        >: CHECKS VALUES ARE BIGGER OR EQUAL
+
+        LOGICAL
+
+        &&: AND (BOTH NEED TO BE TRUE OR RETURNS FALSE)
+        ||: OR (ONE NEEDS TO BE TRUE TO RETURN TRUE)
+        !: NOT (REVERSES ANY BOOLEAN VALUE)
+         */
     }
 }
