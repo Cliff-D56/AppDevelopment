@@ -67,6 +67,9 @@ public class Games {
                     break;
             }
         }
+        for(Player player :Roster){
+            System.out.printf("Player: %s Age: %s%n",player.name,player.age);
+        }
         System.out.printf("The Tigers have won: %s Games %nThe Dogs have won %s Games %nThe Cats have won %s Games %n",Tigers.wins,Dogs.wins,Cats.wins);
         if(Tigers.wins> Dogs.wins && Tigers.wins > Cats.wins){
             System.out.printf("The Tigers have won the Soccer league with %s Wins and %s Losses",Tigers.wins,Tigers.losses);
