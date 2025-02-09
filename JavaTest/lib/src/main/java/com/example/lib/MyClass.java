@@ -1,12 +1,15 @@
 package com.example.lib;
 
+import java.lang.reflect.Array;
+import java.util.ArrayList;
+
 public class MyClass {
     // TO WRITE COMMENTS USE THE // OR /* */
 
     // MAIN METHOD SYNTAX USED TO RUN JAVA CODE
     public static void main(String[] args) {
         // TO PRINT TO CONSOLE USE System.out.println();
-        System.out.print("This is how to talk to console");
+        System.out.println("This is how to talk to console");
 
         // TO STORE VALUES IN WORDS USE VARIABLES
         int variable = 2;
@@ -77,5 +80,16 @@ public class MyClass {
         ||: OR (ONE NEEDS TO BE TRUE TO RETURN TRUE)
         !: NOT (REVERSES ANY BOOLEAN VALUE)
          */
+        Soul_Weaver Edward = new Soul_Weaver();
+        Edward.age = 27;
+        Edward.name = "Wrath the Furious";
+        Edward.deadOrAlive = true;
+
+        String [] names = {"Clifford"};
+        ArrayList<String> Names = new ArrayList<>();
+        Names.add("Clifford");
+        Names.add("Anna");
+        Names.add("Edward");
+        System.out.println(Names);
     }
 }
