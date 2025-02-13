@@ -1,6 +1,4 @@
-package com.example.lib;
-
-import com.example.lib.Soccer.Team;
+package com.example.lib.Soccer;
 
 import java.util.ArrayList;
 

@@ -1,8 +1,5 @@
 package com.example.lib.Soccer;
 
-import com.example.lib.League;
-
-import java.sql.SQLOutput;
 import java.util.ArrayList;
 import java.util.Random;
 

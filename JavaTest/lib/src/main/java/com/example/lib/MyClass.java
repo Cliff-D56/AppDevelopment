@@ -7,9 +7,12 @@ import java.time.format.DateTimeFormatter;
 import java.time.format.FormatStyle;
 import java.util.ArrayList;
 
-public class MyClass {
+public class MyClass{
     // TO WRITE COMMENTS USE THE // OR /* */
-
+    public static Boolean check(Soul_Weaver Sin){
+        Sin.sayHello();
+        return (Sin instanceof Wrath);
+    }
     // MAIN METHOD SYNTAX USED TO RUN JAVA CODE
     public static void main(String[] args) {
         // TO PRINT TO CONSOLE USE System.out.println();
@@ -87,15 +90,15 @@ public class MyClass {
         Soul_Weaver Edward = new Soul_Weaver();
         Edward.age = 27;
         Edward.name = "Wrath the Furious";
-        Edward.deadOrAlive = true;
-
+        Edward.setDeadOrAlive(true);
+        System.out.println(Edward.getDOA());
         String [] names = {"Clifford"};
         ArrayList<String> Names = new ArrayList<>();
         Names.add("Clifford");
         Names.add("Anna");
         Names.add("Edward");
         float moneyLeftOver = 938.72F;
-        int daysInCurrentMonth = java.time.LocalDate.now().lengthOfMonth();
+        int daysInCurrentMonth = LocalDate.now().lengthOfMonth();
         LocalDateTime myDate = LocalDateTime.now();
         int daysRemaining = daysInCurrentMonth - myDate.getDayOfMonth();
         float moneyPerDay = moneyLeftOver/daysRemaining;
