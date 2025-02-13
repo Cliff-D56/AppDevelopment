@@ -1,6 +1,10 @@
 package com.example.lib;
 
 import java.lang.reflect.Array;
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+import java.time.format.FormatStyle;
 import java.util.ArrayList;
 
 public class MyClass {
@@ -90,6 +94,12 @@ public class MyClass {
         Names.add("Clifford");
         Names.add("Anna");
         Names.add("Edward");
-        System.out.println(Names);
+        float moneyLeftOver = 938.72F;
+        int daysInCurrentMonth = java.time.LocalDate.now().lengthOfMonth();
+        LocalDateTime myDate = LocalDateTime.now();
+        int daysRemaining = daysInCurrentMonth - myDate.getDayOfMonth();
+        float moneyPerDay = moneyLeftOver/daysRemaining;
+        System.out.println(moneyPerDay);
+        System.out.println(myDate.format(DateTimeFormatter.ofLocalizedDateTime(FormatStyle.MEDIUM)));
     }
 }

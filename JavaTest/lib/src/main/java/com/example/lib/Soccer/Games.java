@@ -16,6 +16,7 @@ public class Games {
         Player Cliff = new Player();
         Cliff.name = "Clifford";
         Cliff.age = 7;
+        Player Anna = new Player("Anna",2);
         Player [] Roster = new Player[11];
         for(int i=0;i<11;i++){
             Roster[i]=Cliff;
