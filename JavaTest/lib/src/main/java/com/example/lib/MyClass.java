@@ -1,6 +1,8 @@
 package com.example.lib;
 
-import java.lang.reflect.Array;
+import com.example.lib.Soul_Weavers.Soul_Weaver;
+import com.example.lib.Soul_Weavers.Wrath;
+
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
@@ -88,10 +90,10 @@ public class MyClass{
         !: NOT (REVERSES ANY BOOLEAN VALUE)
          */
         Soul_Weaver Edward = new Soul_Weaver();
-        Edward.age = 27;
-        Edward.name = "Wrath the Furious";
+        Edward.setAge(27);
+        Edward.setName("Wrath the Furious");
         Edward.setDeadOrAlive(true);
-        System.out.println(Edward.getDOA());
+        System.out.println(Edward.getName());
         String [] names = {"Clifford"};
         ArrayList<String> Names = new ArrayList<>();
         Names.add("Clifford");
