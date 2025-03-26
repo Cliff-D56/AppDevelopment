@@ -2,6 +2,7 @@ package com.example.lib;
 
 import com.example.lib.Soul_Weavers.Soul_Weaver;
 import com.example.lib.Soul_Weavers.Wrath;
+import com.example.lib.Test.Bank;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
@@ -15,6 +16,7 @@ public class MyClass{
         Sin.sayHello();
         return (Sin instanceof Wrath);
     }
+
     // MAIN METHOD SYNTAX USED TO RUN JAVA CODE
     public static void main(String[] args) {
         // TO PRINT TO CONSOLE USE System.out.println();
@@ -106,5 +108,13 @@ public class MyClass{
         float moneyPerDay = moneyLeftOver/daysRemaining;
         System.out.println(moneyPerDay);
         System.out.println(myDate.format(DateTimeFormatter.ofLocalizedDateTime(FormatStyle.MEDIUM)));
+
+        Bank SBI = new Bank("SBI",.08F);
+        Bank ICICI = new Bank("ICICI",.07F);
+        Bank AXIS = new Bank("AXIS",.09F);
+
+        SBI.giveInfo();
+        ICICI.giveInfo();
+        AXIS.giveInfo();
     }
 }
