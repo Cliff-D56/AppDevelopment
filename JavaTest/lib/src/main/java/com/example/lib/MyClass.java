@@ -3,6 +3,7 @@ package com.example.lib;
 import com.example.lib.Soul_Weavers.Soul_Weaver;
 import com.example.lib.Soul_Weavers.Wrath;
 import com.example.lib.Test.Bank;
+import com.example.lib.Test.Encap;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
