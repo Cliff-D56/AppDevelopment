@@ -1,5 +1,6 @@
 package com.example.lib;
 
+import com.example.lib.Soul_Weavers.Pride;
 import com.example.lib.Soul_Weavers.Soul_Weaver;
 import com.example.lib.Soul_Weavers.Wrath;
 import com.example.lib.Test.Bank;
@@ -92,11 +93,13 @@ public class MyClass{
         ||: OR (ONE NEEDS TO BE TRUE TO RETURN TRUE)
         !: NOT (REVERSES ANY BOOLEAN VALUE)
          */
-        Soul_Weaver Edward = new Soul_Weaver();
+        Soul_Weaver Edward = new Wrath();
+        Pride Shahbaz = new Pride("Pride the Arrogant",92,true);
+        Shahbaz.sayHello();
         Edward.setAge(27);
         Edward.setName("Wrath the Furious");
         Edward.setDeadOrAlive(true);
-        System.out.println(Edward.getName());
+        Edward.sayHello();
         String [] names = {"Clifford"};
         ArrayList<String> Names = new ArrayList<>();
         Names.add("Clifford");
@@ -117,5 +120,6 @@ public class MyClass{
         SBI.giveInfo();
         ICICI.giveInfo();
         AXIS.giveInfo();
+
     }
 }

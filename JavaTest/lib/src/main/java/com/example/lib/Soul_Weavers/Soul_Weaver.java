@@ -1,15 +1,15 @@
 package com.example.lib.Soul_Weavers;
 
 public class Soul_Weaver {
-    private String name;
-    private int age;
-    private Boolean deadOrAlive;
+    static private String name;
+    static private int age;
+    static private Boolean deadOrAlive;
 
     public Soul_Weaver(){}
     public Soul_Weaver(String name,int age,Boolean deadOrAlive){
-        this.name = name;
-        this.age = age;
-        this.deadOrAlive = deadOrAlive;
+        Soul_Weaver.name = name;
+        Soul_Weaver.age = age;
+        Soul_Weaver.deadOrAlive = deadOrAlive;
     }
     public void sayHello(){
         System.out.println("Hello");
@@ -18,7 +18,7 @@ public class Soul_Weaver {
         return deadOrAlive;
     }
     public void setDeadOrAlive(Boolean bool){
-        this.deadOrAlive = bool;
+        Soul_Weaver.deadOrAlive = bool;
     }
     public String getName(){
         return name;
@@ -27,9 +27,9 @@ public class Soul_Weaver {
         return age;
     }
     public void setName(String name){
-        this.name = name;
+        Soul_Weaver.name = name;
     }
     public void setAge(int age){
-        this.age = age;
+        Soul_Weaver.age = age;
     }
 }
