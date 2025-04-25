@@ -105,15 +105,6 @@ public class MyClass{
         Names.add("Clifford");
         Names.add("Anna");
         Names.add("Edward");
-        double moneyLeftOver = 1938.72;
-        int daysInCurrentMonth = LocalDate.now().lengthOfMonth();
-        LocalDateTime myDate = LocalDateTime.now();
-        LocalDateTime offset = LocalDateTime.now().plusDays(15);
-        int daysRemaining = daysInCurrentMonth - myDate.getDayOfMonth();
-        double moneyPerDay = Math.round(moneyLeftOver/daysRemaining*100)/100.0;
-        System.out.println(moneyPerDay);
-        System.out.println(myDate.format(DateTimeFormatter.ofLocalizedDateTime(FormatStyle.MEDIUM)));
-        System.out.println(offset.format(DateTimeFormatter.ofLocalizedDateTime(FormatStyle.MEDIUM)));
 //        Bank SBI = new Bank("SBI",.08F);
 //        Bank ICICI = new Bank("ICICI",.07F);
 //        Bank AXIS = new Bank("AXIS",.09F);
