@@ -20,29 +20,31 @@ public class FinancialFitness extends FinancialFitnessMethods {
     }
     public static void main(String[] args) throws IOException {
         String paymentfile = "Spending.txt";
-        String dir = "Spending";
-        Path file = Paths.get(paymentfile);
+        String dir = "lib/src/main/java/com/example/lib/FinancialFitness";
+        Path file = Paths.get(dir,paymentfile);
         try{
             List<String> paymentList = Files.readAllLines(file);
-            showAll(paymentList);
+//            showAll(paymentList);
+            double moneyLeftOver = showAll(paymentList);
+            int daysInCurrentMonth = LocalDate.now().lengthOfMonth();
+            LocalDateTime myDate = LocalDateTime.now();
+            LocalDateTime offset = LocalDateTime.now().withDayOfMonth(daysInCurrentMonth);
+            int daysRemaining = daysInCurrentMonth - myDate.getDayOfMonth()+1;
+            double moneyPerDay = Math.round(moneyLeftOver/daysRemaining*100)/100.0;
+//            System.out.println(moneyLeftOver);
+            System.out.println(myDate.format(DateTimeFormatter.ofLocalizedDateTime(FormatStyle.MEDIUM)));
+            System.out.println(moneyPerDay);
+//            System.out.println(offset.format(DateTimeFormatter.ofLocalizedDateTime(FormatStyle.MEDIUM)));
+
         }catch(IOException e){
             e.printStackTrace();
         }
 
-        System.out.println(file);
+//        System.out.println(System.getProperty("user.dir"));
 
 
         double income = 2876.70;
         double bills = 2224.62;
-        double moneyLeftOver = income-bills;
-        int daysInCurrentMonth = LocalDate.now().lengthOfMonth();
-        LocalDateTime myDate = LocalDateTime.now();
-        LocalDateTime offset = LocalDateTime.now().withDayOfMonth(daysInCurrentMonth);
-        int daysRemaining = daysInCurrentMonth - myDate.getDayOfMonth();
-        double moneyPerDay = Math.round(moneyLeftOver/daysRemaining*100)/100.0;
-        System.out.println(moneyLeftOver);
-        System.out.println(myDate.format(DateTimeFormatter.ofLocalizedDateTime(FormatStyle.MEDIUM)));
-        System.out.println(moneyPerDay);
-        System.out.println(offset.format(DateTimeFormatter.ofLocalizedDateTime(FormatStyle.MEDIUM)));
+
     }
 }
