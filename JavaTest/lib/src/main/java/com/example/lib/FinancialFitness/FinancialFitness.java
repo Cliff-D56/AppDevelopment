@@ -1,4 +1,4 @@
-package com.example.lib;
+package com.example.lib.FinancialFitness;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
