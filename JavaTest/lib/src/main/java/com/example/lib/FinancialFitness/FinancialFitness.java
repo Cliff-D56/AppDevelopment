@@ -19,28 +19,32 @@ public class FinancialFitness extends FinancialFitnessMethods {
         this.amount = amount;
     }
     public static void main(String[] args) throws IOException {
+        Scanner input = new Scanner(System.in);
         String paymentfile = "Spending.txt";
         String dir = "lib/src/main/java/com/example/lib/FinancialFitness";
         Path file = Paths.get(dir,paymentfile);
         try{
             List<String> paymentList = Files.readAllLines(file);
-//            showAll(paymentList);
-            double moneyLeftOver = showAll(paymentList);
+            double income = 2876.70;
+            double goal = 200.00;
+            double moneySpent = showAll(paymentList);
             int daysInCurrentMonth = LocalDate.now().lengthOfMonth();
             LocalDateTime myDate = LocalDateTime.now();
             LocalDateTime offset = LocalDateTime.now().withDayOfMonth(daysInCurrentMonth);
             int daysRemaining = daysInCurrentMonth - myDate.getDayOfMonth()+1;
-            double moneyPerDay = Math.round(moneyLeftOver/daysRemaining*100)/100.0;
+            double moneyRemaining = income-goal-moneySpent;
+            double moneyPerDay = Math.round(moneyRemaining/daysRemaining*100)/100.0;
 //            System.out.println(moneyLeftOver);
             System.out.println(myDate.format(DateTimeFormatter.ofLocalizedDateTime(FormatStyle.MEDIUM)));
-            System.out.println(moneyPerDay);
-//            System.out.println(offset.format(DateTimeFormatter.ofLocalizedDateTime(FormatStyle.MEDIUM)));
+            System.out.printf("I can spend $%s per day for the next %s days to save $%s this month%n",moneyPerDay,daysRemaining,goal);
+            System.out.println(offset.format(DateTimeFormatter.ofLocalizedDateTime(FormatStyle.MEDIUM)));
 
         }catch(IOException e){
+            System.out.println(file);
+            System.out.println(System.getProperty("user.dir"));
             e.printStackTrace();
         }
 
-//        System.out.println(System.getProperty("user.dir"));
 
 
         double income = 2876.70;
