@@ -19,7 +19,7 @@ public class FinancialFitnessMethods {
         LocalDateTime myDate = LocalDateTime.now();
         LocalDateTime offset = LocalDateTime.now().withDayOfMonth(daysInCurrentMonth);
         int daysRemaining = daysInCurrentMonth - myDate.getDayOfMonth()+1;
-        double moneyRemaining = income-goal-moneySpent;
+        double moneyRemaining = income-(goal+moneySpent);
         double moneyPerDay = Math.round(moneyRemaining/daysRemaining*100)/100.0;
 //            System.out.println(moneyLeftOver);
         System.out.println(myDate.format(DateTimeFormatter.ofLocalizedDateTime(FormatStyle.MEDIUM)));
@@ -32,7 +32,7 @@ public class FinancialFitnessMethods {
         for(String payment : payments) {
             String[] split = payment.split(":");
             total += Double.parseDouble(split[2]);
-            System.out.printf("%s |%-15s| $%-15s |%n",split[0],split[1],split[2]);
+            System.out.printf("%s | %-15s| $%-15s |%n",split[0],split[1],split[2]);
         }
         System.out.printf("I've spent %s over the course of this month%n",total);
         return total;
@@ -42,8 +42,9 @@ public class FinancialFitnessMethods {
         for(String income : incomes) {
             String[] split = income.split(":");
             total += Double.parseDouble(split[2]);
-            System.out.printf("%s |%-15s| $%-15s |%n",split[0],split[1],split[2]);
+            System.out.printf("%s | %-15s| $%-15s |%n",split[0],split[1],split[2]);
         }
+        System.out.printf("I've earned %s over the course of this month%n",total);
         return total;
     }
     public static void addSpending(List<String>payments, Path file, Scanner input) throws IOException {
