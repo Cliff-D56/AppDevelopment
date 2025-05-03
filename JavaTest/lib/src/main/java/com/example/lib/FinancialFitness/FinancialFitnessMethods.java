@@ -27,7 +27,7 @@ public class FinancialFitnessMethods {
         System.out.println(offset.format(DateTimeFormatter.ofLocalizedDateTime(FormatStyle.MEDIUM)));
     }
     public static Double showAllPayments(List<String> payments){
-        payments.sort(Comparator.naturalOrder());
+//        payments.sort(Comparator.naturalOrder());
         double total = 0.0;
         for(String payment : payments) {
             String[] split = payment.split(":");
