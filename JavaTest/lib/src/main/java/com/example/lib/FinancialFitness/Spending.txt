@@ -1,4 +1,15 @@
-1:Walmart :5.56
-2:Target :854
-3:Gamestop :1500
-4:heb:60.34
+1:IRA:200
+2:Acorns:9.36
+3:Walmart:41.76
+4:Gas:2.75
+5:Acorns:15
+6:Acorns:10.41
+7:Karma:100
+8:Robinhood:133
+9:Acorns:8.31
+10:Gas:21.59
+11:Gas:21.43
+12:Waffle House:20
+13:Public Storage:152
+14:Range USA:40.04
+15:Tyler Gift:44.60

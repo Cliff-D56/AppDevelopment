@@ -31,7 +31,8 @@ public class FinancialFitness extends FinancialFitnessMethods {
             double income = incomePayments(incomeList);
             double moneySpent = showAllPayments(paymentList);
             double goal = 200.00;
-            results(income,moneySpent,goal);
+            results(income,goal,moneySpent);
+//            System.out.println(showAllPayments(paymentList));
         }catch(IOException e){
             e.printStackTrace();
         }
