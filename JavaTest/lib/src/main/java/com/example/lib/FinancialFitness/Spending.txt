@@ -12,3 +12,4 @@
 12:Waffle House:20
 13:Public Storage:152
 14:Range USA:40.04
+15:Tyler Gift:44.60
