@@ -13,3 +13,6 @@
 13:Public Storage:152
 14:Range USA:40.04
 15:Tyler Gift:44.60
+16:Milk:3.44
+17:Wallgreens:10.37
+18:Crunchyroll:12.98
