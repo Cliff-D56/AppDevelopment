@@ -30,7 +30,7 @@ public class FinancialFitness extends FinancialFitnessMethods {
             List<String> incomeList = Files.readAllLines(Income);
             double income = incomePayments(incomeList);
             double moneySpent = showAllPayments(paymentList);
-            double goal = 200.00;
+            double goal = 500.00;
             results(income,goal,moneySpent);
 //            System.out.println(showAllPayments(paymentList));
         }catch(IOException e){
