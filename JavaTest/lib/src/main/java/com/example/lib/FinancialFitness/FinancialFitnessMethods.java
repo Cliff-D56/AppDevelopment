@@ -14,12 +14,12 @@ import java.util.List;
 import java.util.Scanner;
 
 public class FinancialFitnessMethods {
-    public static void results(double income,double goal,double moneySpent){
+    public static void results(double income,double goal,double moneySpent,double bills){
         int daysInCurrentMonth = LocalDate.now().lengthOfMonth();
         LocalDateTime myDate = LocalDateTime.now();
         LocalDateTime offset = LocalDateTime.now().withDayOfMonth(daysInCurrentMonth);
         int daysRemaining = daysInCurrentMonth - myDate.getDayOfMonth()+1;
-        double moneyRemaining = income-(goal+moneySpent);
+        double moneyRemaining = (income-bills)-(goal+moneySpent);
         double moneyPerDay = Math.round(moneyRemaining/daysRemaining*100)/100.0;
 //            System.out.println(moneyLeftOver);
         System.out.println(myDate.format(DateTimeFormatter.ofLocalizedDateTime(FormatStyle.MEDIUM)));
@@ -35,6 +35,14 @@ public class FinancialFitnessMethods {
             System.out.printf("%s | %-15s| $%-15s |%n",split[0],split[1],split[2]);
         }
         System.out.printf("I've spent %s over the course of this month%n",total);
+        return total;
+    }
+    public static Double allBills(List<String> bills){
+        double total = 0;
+        for(String bill:bills){
+            String[] split = bill.split(":");
+            total += Double.parseDouble(split[2]);
+        }
         return total;
     }
     public static Double incomePayments(List<String> incomes){

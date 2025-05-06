@@ -1,0 +1,11 @@
+1:Public Storage:152
+2:Karma:100
+3:Crunchyroll:12.98
+4:IRA:200
+5:Acorns:60
+6:Phone:130
+7:Gold:4.17
+8:Amazon:18
+9:Google:2
+10:Gym:54.11
+11:RobinhoodInvest:200
