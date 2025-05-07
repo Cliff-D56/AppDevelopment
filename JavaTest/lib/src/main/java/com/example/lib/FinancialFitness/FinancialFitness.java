@@ -23,7 +23,7 @@ public class FinancialFitness extends FinancialFitnessMethods {
         String paymentfile = "Spending.txt";
         String incomeFile = "Income.txt";
         String billFile = "Bills.txt";
-        String dir = "lib/src/main/java/com/example/lib/FinancialFitness";
+        String dir = "lib/src/main/java/com/example/lib/FinancialFitness/Spending";
         Path Spending = Paths.get(dir,paymentfile);
         Path Income = Paths.get(dir,incomeFile);
         Path Bills = Paths.get(dir,billFile);

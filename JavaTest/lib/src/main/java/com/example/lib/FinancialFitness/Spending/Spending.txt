@@ -12,3 +12,7 @@
 12:Milk:3.44
 13:Wallgreens:10.37
 14:Amazon:37.45
+15:Acorns:9.63
+16:Acorns:6
+17:Acorns:7.44
+18:Acorns:6.93
