@@ -23,7 +23,9 @@ public class FinancialFitnessMethods {
         double moneyPerDay = Math.round(moneyRemaining/daysRemaining*100)/100.0;
 //            System.out.println(moneyLeftOver);
         System.out.println(myDate.format(DateTimeFormatter.ofLocalizedDateTime(FormatStyle.MEDIUM)));
-        System.out.printf("I can spend $%s per day for the next %s days to save $%s this month%n",moneyPerDay,daysRemaining,goal);
+        String msg = moneyRemaining < 0 ?"You've Exceeded your spending and are behind $"+moneyRemaining:
+                "I can spend $"+moneyPerDay+" per day for the next "+daysRemaining+" days to save $"+goal+" this month%n";
+        System.out.println(msg );
         System.out.println(offset.format(DateTimeFormatter.ofLocalizedDateTime(FormatStyle.MEDIUM)));
     }
     public static Double showAllPayments(List<String> payments){

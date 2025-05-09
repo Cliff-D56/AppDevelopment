@@ -9,3 +9,4 @@
 9:Google:2
 10:Gym:54.11
 11:RobinhoodInvest:200
+12:Rent:400

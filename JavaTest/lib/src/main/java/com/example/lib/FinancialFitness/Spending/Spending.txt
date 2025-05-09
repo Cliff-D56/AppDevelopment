@@ -16,3 +16,6 @@
 16:Acorns:6
 17:Acorns:7.44
 18:Acorns:6.93
+19:Amazon:34.70
+20:Amazon:42.87
+21:Amazon:35.38
