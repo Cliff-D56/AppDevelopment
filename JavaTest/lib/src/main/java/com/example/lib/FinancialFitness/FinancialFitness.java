@@ -31,10 +31,10 @@ public class FinancialFitness extends FinancialFitnessMethods {
             List<String> paymentList = Files.readAllLines(Spending);
             List<String> incomeList = Files.readAllLines(Income);
             List<String> allbills = Files.readAllLines(Bills);
-            double bills = allBills(allbills);
-            double income = incomePayments(incomeList);
-            double moneySpent = showAllPayments(paymentList);
-            double goal = 500.00;
+            float bills = allBills(allbills);
+            float income = incomePayments(incomeList);
+            float moneySpent = showAllPayments(paymentList);
+            float goal = income/10;
             results(income,goal,moneySpent,bills);
 //            System.out.println(showAllPayments(paymentList));
         }catch(IOException e){

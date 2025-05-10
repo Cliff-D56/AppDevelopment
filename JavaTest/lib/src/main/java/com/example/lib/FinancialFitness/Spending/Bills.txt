@@ -10,3 +10,4 @@
 10:Gym:54.11
 11:RobinhoodInvest:200
 12:Rent:400
+13:Insurance:175

@@ -14,13 +14,13 @@ import java.util.List;
 import java.util.Scanner;
 
 public class FinancialFitnessMethods {
-    public static void results(double income,double goal,double moneySpent,double bills){
+    public static void results(float income,float goal,float moneySpent,float bills){
         int daysInCurrentMonth = LocalDate.now().lengthOfMonth();
         LocalDateTime myDate = LocalDateTime.now();
         LocalDateTime offset = LocalDateTime.now().withDayOfMonth(daysInCurrentMonth);
         int daysRemaining = daysInCurrentMonth - myDate.getDayOfMonth()+1;
-        double moneyRemaining = (income-bills)-(goal+moneySpent);
-        double moneyPerDay = Math.round(moneyRemaining/daysRemaining*100)/100.0;
+        float moneyRemaining = (income-bills)-(goal+moneySpent);
+        float moneyPerDay = Math.round(moneyRemaining/daysRemaining*100)/100.0F;
 //            System.out.println(moneyLeftOver);
         System.out.println(myDate.format(DateTimeFormatter.ofLocalizedDateTime(FormatStyle.MEDIUM)));
         String msg = moneyRemaining < 0 ?"You've Exceeded your spending and are behind $"+moneyRemaining:
@@ -28,30 +28,30 @@ public class FinancialFitnessMethods {
         System.out.println(msg );
         System.out.println(offset.format(DateTimeFormatter.ofLocalizedDateTime(FormatStyle.MEDIUM)));
     }
-    public static Double showAllPayments(List<String> payments){
+    public static float showAllPayments(List<String> payments){
 //        payments.sort(Comparator.naturalOrder());
-        double total = 0.0;
+        float total = 0.0F;
         for(String payment : payments) {
             String[] split = payment.split(":");
-            total += Double.parseDouble(split[2]);
+            total += Float.parseFloat(split[2]);
             System.out.printf("%s | %-15s| $%-15s |%n",split[0],split[1],split[2]);
         }
         System.out.printf("I've spent %s over the course of this month%n",total);
         return total;
     }
-    public static Double allBills(List<String> bills){
-        double total = 0;
+    public static float allBills(List<String> bills){
+        float total = 0F;
         for(String bill:bills){
             String[] split = bill.split(":");
-            total += Double.parseDouble(split[2]);
+            total += Float.parseFloat(split[2]);
         }
         return total;
     }
-    public static Double incomePayments(List<String> incomes){
-        double total = 0.0;
+    public static float incomePayments(List<String> incomes){
+        float total = 0.0F;
         for(String income : incomes) {
             String[] split = income.split(":");
-            total += Double.parseDouble(split[2]);
+            total += Float.parseFloat(split[2]);
             System.out.printf("%s | %-15s| $%-15s |%n",split[0],split[1],split[2]);
         }
         System.out.printf("I've earned %s over the course of this month%n",total);
@@ -62,7 +62,7 @@ public class FinancialFitnessMethods {
         System.out.println("Type in where the payment was");
         String paymentName = input.nextLine();
         System.out.println("Type how much the payment was");
-        double paymentAmount =  Double.parseDouble(input.nextLine());
+        float paymentAmount =  Float.parseFloat(input.nextLine());
         String newEntry  = payments.size()+1+":"+paymentName+":"+paymentAmount;
         payments.add(newEntry);
         Files.write(file,payments);
