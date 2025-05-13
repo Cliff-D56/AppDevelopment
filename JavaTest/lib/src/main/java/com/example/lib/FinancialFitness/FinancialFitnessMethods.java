@@ -22,6 +22,7 @@ public class FinancialFitnessMethods {
         float moneyRemaining = (income-bills)-(goal+moneySpent);
         float moneyPerDay = Math.round(moneyRemaining/daysRemaining*100)/100.0F;
 //            System.out.println(moneyLeftOver);
+        System.out.println(myDate.format(DateTimeFormatter.ofLocalizedDate(FormatStyle.MEDIUM)));
         System.out.println(myDate.format(DateTimeFormatter.ofLocalizedDateTime(FormatStyle.MEDIUM)));
         String msg = moneyRemaining < 0 ?"You've Exceeded your spending and are behind $"+moneyRemaining:
                 "I can spend $"+moneyPerDay+" per day for the next "+daysRemaining+" days to save $"+goal+" this month%n";

@@ -19,3 +19,5 @@
 19:Amazon:34.70
 20:Amazon:42.87
 21:Amazon:35.38
+22:Topgolf:24.68
+23:Shell:9.58
