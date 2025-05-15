@@ -21,3 +21,9 @@
 21:Amazon:35.38
 22:Topgolf:24.68
 23:Shell:9.58
+24:Shell:9.50
+25:Robinhood:140
+26:Acorns:5.67
+27:Acorns:6.33
+28:Sezzle:58.34
+29:Gas:10.51
