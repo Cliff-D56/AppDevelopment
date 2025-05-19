@@ -1,11 +1,11 @@
 package com.example.lib.Soul_Weavers;
 
-public class Pride extends Soul_Weaver{
+public class Pride extends Soul_Weaver {
     public Pride(String name, int age, Boolean deadOrAlive) {
         super(name, age, deadOrAlive);
     }
 
-    public void sayHello(){
-        System.out.printf("Im %s%n",getName());
+    public void sayHello() {
+        System.out.printf("Im %s%n", getName());
     }
 }
