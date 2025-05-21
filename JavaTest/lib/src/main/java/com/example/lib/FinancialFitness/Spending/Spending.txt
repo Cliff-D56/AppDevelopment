@@ -35,3 +35,4 @@
 35:Gas:3
 36:Walmart:2.52
 37:Gas:2.60
+38:Acorns:6

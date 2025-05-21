@@ -8,6 +8,6 @@
 8:Amazon:18
 9:Google:2
 10:Gym:54.11
-11:RobinhoodInvest:200
+11:Robinhood Invest:200
 12:Rent:400
 13:Insurance:175
