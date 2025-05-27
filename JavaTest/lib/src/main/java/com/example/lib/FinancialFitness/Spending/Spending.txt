@@ -40,3 +40,9 @@
 40:Walmart:111.22
 41:Gas:3.15
 42:D3 Birthday:42.89
+43:Walmart:5.03
+44:Range USA:6.05
+45:Exxon:6.36
+46:Circle:4
+47:Sezzle:53.03
+48:Gas:36.27
