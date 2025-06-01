@@ -46,3 +46,5 @@
 46:Circle:4
 47:Sezzle:53.03
 48:Gas:36.27
+49:Walmart:24.03
+50:Walmart:13.60
