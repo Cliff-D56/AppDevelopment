@@ -51,7 +51,7 @@ public class FinancialFitnessMethods {
             total += Float.parseFloat(split[2]);
             System.out.printf("%s | %-15s| $%-15s |%n", split[0], split[1], split[2]);
         }
-        System.out.printf("I've spent %s over the course of this month%n", total);
+        System.out.printf("I've spent $%s over the course of this month%n", total);
         return total;
     }
 
@@ -115,8 +115,7 @@ public class FinancialFitnessMethods {
             String month = myDate.getMonth().toString();
             total += budget;
             if (i == 1) {
-                temp.add("Initial Calendar");
-                temp.add(day + " -");
+                temp.add("Initial Calendar\n"+day + " -");
             }
             if (myDate.getDayOfWeek().toString().equals("SATURDAY")) {
 //                    temp.add(LocalDateTime.now().withDayOfMonth(i).format(DateTimeFormatter.ofLocalizedDate(FormatStyle.MEDIUM))+" "+myDate.getDayOfWeek());
@@ -136,8 +135,12 @@ public class FinancialFitnessMethods {
                 temp.add(day + " -");
             }
             if (i == daysInCurrentMonth) {
+                temp.add(day + " " + month + " Budget for the week is $" + total);
+                String line = String.join(" ", temp);
+                days.add(line);
                 days.add(msg);
             }
+            Files.write(file, days);
 //                temp.add(LocalDateTime.now().withDayOfMonth(i).format(DateTimeFormatter.ofLocalizedDate(FormatStyle.MEDIUM))+" "+myDate.getDayOfWeek());
 //                calendar.add(LocalDateTime.now().withDayOfMonth(i).format(DateTimeFormatter.ofLocalizedDate(FormatStyle.MEDIUM))+" "+myDate.getDayOfWeek());
 //            System.out.printf("%s %s%n",LocalDateTime.now().withDayOfMonth(i).format(DateTimeFormatter.ofLocalizedDate(FormatStyle.MEDIUM)),myDate.getDayOfWeek());
