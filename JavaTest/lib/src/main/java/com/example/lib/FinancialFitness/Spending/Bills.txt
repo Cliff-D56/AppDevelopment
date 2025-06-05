@@ -1,13 +1,13 @@
 1:Public Storage:152
-2:Karma:100
+2:Karma (Savings):100
 3:Crunchyroll:12.98
-4:IRA:100
-5:Acorns:60
-6:Phone:130
+4:IRA (Savings):100
+5:Acorns (Savings):60
+6:Phone (Bank):130
 7:Gold:4.17
 8:Amazon:18
 9:Google:2
 10:Gym:54.11
-11:Robinhood Invest:200
-12:Rent:400
+11:Robinhood Invest (Savings):200
+12:Rent (Bank):400
 13:Insurance:175
