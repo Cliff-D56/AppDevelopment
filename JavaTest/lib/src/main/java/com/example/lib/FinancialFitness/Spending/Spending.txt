@@ -1,4 +1,6 @@
 1:Kroger (Birthday Cake):28.22
 2:Aryelle birthday gift:28.92
 3:Loc spray/Dad's gift:41.75
-4:Circle K: 2.69
+4:Circle K:2.69
+5:Range USA:33.55
+6:Lies of P:32.16
