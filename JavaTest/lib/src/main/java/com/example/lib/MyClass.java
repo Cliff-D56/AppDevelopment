@@ -6,6 +6,10 @@ import com.example.lib.Soul_Weavers.Wrath;
 import com.example.lib.Test.Bank;
 import com.example.lib.Test.Encap;
 
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
@@ -20,7 +24,7 @@ public class MyClass{
     }
 
     // MAIN METHOD SYNTAX USED TO RUN JAVA CODE
-    public static void main(String[] args) {
+    public static void main(String[] args){
         // TO PRINT TO CONSOLE USE System.out.println();
         System.out.println("This is how to talk to console");
 
@@ -112,6 +116,15 @@ public class MyClass{
 //        SBI.giveInfo();
 //        ICICI.giveInfo();
 //        AXIS.giveInfo();
-
+        try(Connection conn = DriverManager.getConnection
+                ("jdbc:mysql://localhost:3306/MySQL80","root","Anna3256")){
+            PreparedStatement ps = conn.prepareStatement("Insert into Checks (name,age) Values (?,?)");
+            ps.setString(1,"Aryelle");
+            ps.setInt(2,1);
+            int rows = ps.executeUpdate();
+            System.out.println(rows);
+        } catch(SQLException e){
+          e.printStackTrace();
+        }
     }
 }

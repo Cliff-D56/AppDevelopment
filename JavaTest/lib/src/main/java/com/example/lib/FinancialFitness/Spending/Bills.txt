@@ -5,7 +5,7 @@
 5:Acorns (Savings):60
 6:Phone (Bank):130
 7:Gold:4.17
-8:Amazon:18
+8:Amazon:16.08
 9:Google:2
 10:Gym:54.11
 11:Robinhood Invest (Savings):200
