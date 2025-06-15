@@ -11,3 +11,4 @@
 11:Haircut:71
 12:Crisp:67.66
 13:Mom's car part:48.67
+14:Range USA(Kelly):5.67
