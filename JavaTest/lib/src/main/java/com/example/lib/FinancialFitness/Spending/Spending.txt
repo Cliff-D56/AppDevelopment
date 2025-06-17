@@ -12,3 +12,5 @@
 12:Crisp:67.66
 13:Mom's car part:48.67
 14:Range USA(Kelly):5.67
+15:Walmart:24.51
+16:Gas:3.26
