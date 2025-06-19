@@ -15,6 +15,8 @@ import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.time.format.FormatStyle;
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.function.Function;
 
 public class MyClass{
     // TO WRITE COMMENTS USE THE // OR /* */
@@ -22,7 +24,9 @@ public class MyClass{
         Sin.sayHello();
         return (Sin instanceof Wrath);
     }
-
+    public static int triple(int num){
+        return num *3;
+    }
     // MAIN METHOD SYNTAX USED TO RUN JAVA CODE
     public static void main(String[] args){
         // TO PRINT TO CONSOLE USE System.out.println();
@@ -126,5 +130,10 @@ public class MyClass{
         } catch(SQLException e){
           e.printStackTrace();
         }
+        String [] arr = {"7","3","5","1","2","3"};
+        Arrays.sort(arr, (num1, num2) -> Integer.parseInt(num2)-Integer.parseInt(num1));
+        System.out.println(Arrays.toString(arr));
+        Function<String,String> computation = String::toUpperCase;
+        System.out.println(computation.apply("clifford"));
     }
 }
