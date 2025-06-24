@@ -43,7 +43,7 @@ public class FinancialFitness extends FinancialFitnessMethods {
             float addpayments = addPayments(addPayments);
             float income = incomePayments(incomeList,addPayments);
             float moneySpent = showAllPayments(paymentList);
-            float goal = income/10;
+            float goal = 500;//income/10;
             float initGoal = (income-addpayments)/10;
             float budget = results(income,goal,moneySpent,bills);
             float initBudget = initResults((income-addpayments),initGoal,bills);

@@ -11,3 +11,4 @@
 11:Robinhood Invest (Savings):200
 12:Rent (Bank):400
 13:Insurance:175
+14:Sezzle:120

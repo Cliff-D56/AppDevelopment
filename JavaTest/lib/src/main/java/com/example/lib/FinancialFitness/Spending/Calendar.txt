@@ -1,7 +1,7 @@
 Initial Calendar
-1 - 7 JUNE Budget for the week is $168.35
-8 - 14 JUNE Budget for the week is $168.35
-15 - 21 JUNE Budget for the week is $168.35
-22 - 28 JUNE Budget for the week is $168.35
-29 - 30 JUNE Budget for the week is $48.1
-I can spend $24.05 per day to save $236.43501 this month
+1 - 7 JUNE Budget for the week is $140.35
+8 - 14 JUNE Budget for the week is $140.35
+15 - 21 JUNE Budget for the week is $140.35
+22 - 28 JUNE Budget for the week is $140.35
+29 - 30 JUNE Budget for the week is $40.1
+I can spend $20.05 per day to save $236.43501 this month
