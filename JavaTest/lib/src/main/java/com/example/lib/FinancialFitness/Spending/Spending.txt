@@ -17,3 +17,6 @@
 17:Gas:38.05
 18:Exxon:5.93
 19:Groceries:84.65
+20:Range USA:5.42
+21:Gas:38.65
+22:Walmart:100.41

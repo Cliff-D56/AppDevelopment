@@ -61,6 +61,7 @@ public class FinancialFitnessMethods {
             String[] split = bill.split(":");
             total += Float.parseFloat(split[2]);
         }
+        System.out.printf("I pay $%s a month in Bills%n",total);
         return total;
     }
 
