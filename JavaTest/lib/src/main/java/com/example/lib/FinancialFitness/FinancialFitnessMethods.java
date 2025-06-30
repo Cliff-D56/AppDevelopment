@@ -20,12 +20,14 @@ public class FinancialFitnessMethods {
         LocalDateTime offset = LocalDateTime.now().withDayOfMonth(daysInCurrentMonth);
         int daysRemaining = daysInCurrentMonth - myDate.getDayOfMonth() + 1;
         float moneyRemaining = (income - bills) - (goal + moneySpent);
+        float moneySaved = (income-bills) - moneySpent;
         float moneyPerDay = Math.round(moneyRemaining / daysRemaining * 100) / 100.0F;
 //            System.out.println(moneyLeftOver);
         String msg = moneyRemaining < 0 ? "You've Exceeded your spending and are behind $" + moneyRemaining :
                 "I can spend $" + moneyPerDay + " per day for the next " + daysRemaining + " days to save $" + goal + " this month%n";
         System.out.println(msg);
         System.out.println(offset.format(DateTimeFormatter.ofLocalizedDateTime(FormatStyle.MEDIUM)));
+        System.out.printf("I've saved $%s so far%n",moneySaved);
         return moneyPerDay;
     }
 

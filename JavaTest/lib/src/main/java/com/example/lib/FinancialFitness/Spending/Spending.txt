@@ -20,3 +20,4 @@
 20:Range USA:5.42
 21:Gas:38.65
 22:Walmart:100.41
+23:Range USA:28.41
