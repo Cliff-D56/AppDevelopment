@@ -1,2 +1,2 @@
-1:Paycheck:513.93
-2:Paycheck:303.20
+1:Paycheck:376.39
+2:Paycheck:0
