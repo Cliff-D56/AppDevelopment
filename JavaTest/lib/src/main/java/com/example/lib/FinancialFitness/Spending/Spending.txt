@@ -4,3 +4,6 @@
 4:LBJ Parking Pass:9.60
 5:Circle K:4
 6:Circle K:4
+7:Pizza:32
+8:Amazon:56.79
+9:Amazon:36.18
