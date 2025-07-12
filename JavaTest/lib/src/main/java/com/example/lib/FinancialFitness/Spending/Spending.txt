@@ -7,3 +7,6 @@
 7:Pizza:32
 8:Amazon:56.79
 9:Amazon:36.18
+10:Walmart:95.76
+11:Circle K:2.91
+12:Gas:38.63
