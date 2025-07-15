@@ -1,12 +1,12 @@
-1:Amazon:31.08
-2:KSG Compensator:92.30
-3:Amazon:48.57
-4:LBJ Parking Pass:9.60
-5:Circle K:4
-6:Circle K:4
-7:Pizza:32
-8:Amazon:56.79
-9:Amazon:36.18
-10:Walmart:95.76
-11:Circle K:2.91
-12:Gas:38.63
+7/1:Amazon:31.08
+7/1:KSG Compensator:92.30
+7/1:Amazon:48.57
+7/2:LBJ Parking Pass:9.60
+7/5:Circle K:4
+7/6:Circle K:4
+7/7:Pizza:32
+7/7:Amazon:56.79
+7/9:Amazon:36.18
+7/9:Walmart:95.76
+7/11:Circle K:2.91
+7/11:Gas:38.63

@@ -51,9 +51,9 @@ public class FinancialFitnessMethods {
         for (String payment : payments) {
             String[] split = payment.split(":");
             total += Float.parseFloat(split[2]);
-            System.out.printf("%s | %-15s| $%-15s |%n", split[0], split[1], split[2]);
+            System.out.printf("%-5s | %-20s| $%-6s |%n", split[0], split[1], split[2]);
         }
-        System.out.printf("I've spent $%s over the course of this month%n", total);
+        System.out.printf("%nI've spent $%s over the course of this month%n", total);
         return total;
     }
 
@@ -89,7 +89,7 @@ public class FinancialFitnessMethods {
             String[] split = income.split(":");
             total += Float.parseFloat(split[2]);
         }
-        System.out.printf("I've earned %s over the course of this month%n", total);
+        System.out.printf("%nI've earned %s over the course of this month%n%n", total);
         return total;
     }
 
