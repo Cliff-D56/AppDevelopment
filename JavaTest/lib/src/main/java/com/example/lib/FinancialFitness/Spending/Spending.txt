@@ -24,3 +24,4 @@
 7/25:Gas:37.85
 7/26:Range USA:8.92
 7/26:Circle K:9.85
+7/27:Top Golf:72.28
