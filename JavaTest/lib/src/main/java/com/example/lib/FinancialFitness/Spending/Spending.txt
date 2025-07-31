@@ -25,3 +25,8 @@
 7/26:Range USA:8.92
 7/26:Circle K:9.85
 7/27:Top Golf:72.28
+7/30:Gas:5.94
+7/30:Gas:2.80
+7/30:Walmart:137.47
+7/30:Tookies:17.66
+7/30:Tookies:20.81
