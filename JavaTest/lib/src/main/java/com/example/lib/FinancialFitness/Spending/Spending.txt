@@ -30,3 +30,4 @@
 7/30:Walmart:137.47
 7/30:Tookies:17.66
 7/30:Tookies:20.81
+7/31:Bike Chain:16.08
