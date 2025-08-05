@@ -1,0 +1,7 @@
+8/1:Range USA:8.92
+8/1:Gas:39.06
+8/2:Amazon:47.34
+8/3:Circle K:7.24
+8/3:Dollar Tree:7.04
+8/3:Kroger:1.99
+8/3:Tacos:30
