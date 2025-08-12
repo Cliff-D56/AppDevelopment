@@ -13,3 +13,4 @@
 8/8:Amazon:61.18
 8/8:Haircut:30
 8/8:Amazon:27.99
+8/9:Gas Station:8.20
