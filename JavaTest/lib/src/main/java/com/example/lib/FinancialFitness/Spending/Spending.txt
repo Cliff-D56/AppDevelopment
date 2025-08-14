@@ -14,4 +14,8 @@
 8/8:Haircut:30
 8/8:Amazon:27.99
 8/9:Gas Station:8.20
+8/12:Hopdoddy:56.02
+8/12:Parking:6
+8/13:Gas:2.80
+8/13:Gas:39.64
 8/13:Range USA:5.42
