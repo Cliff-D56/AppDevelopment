@@ -19,3 +19,8 @@
 8/13:Gas:2.80
 8/13:Gas:39.64
 8/13:Range USA:5.42
+8/14:Amazon:192.75
+8/14:McDonald's:4.64
+8/15:Walmart:63.12
+8/15:Cleaners:23.26
+8/15:Little Caesars:32.43
