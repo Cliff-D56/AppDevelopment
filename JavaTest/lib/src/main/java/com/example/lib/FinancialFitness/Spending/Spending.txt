@@ -24,3 +24,8 @@
 8/15:Walmart:63.12
 8/15:Cleaners:23.26
 8/15:Little Caesars:32.43
+8/17:Amazon:13.50
+8/17:Mcdonald's:5.41
+8/17:Amazon:3.88
+8/18:Mcdonald's:5.41
+8/18:Walmart:69.19
