@@ -48,8 +48,7 @@ public class FinancialFitness extends FinancialFitnessMethods {
             float budget = results(income,goal,moneySpent,bills);
             float initBudget = initResults((income-addpayments),initGoal,bills);
             calendar(Calendar,calendarDays,initBudget,initGoal);
-
-//            System.out.println(showAllPayments(paymentList));
+            //  System.out.println(showAllPayments(paymentList));
         }catch(IOException e){
             e.printStackTrace();
         }
