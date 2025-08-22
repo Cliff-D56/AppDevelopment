@@ -29,3 +29,5 @@
 8/17:Amazon:3.88
 8/18:Mcdonald's:5.41
 8/18:Walmart:69.19
+8/21:Gas:39.44
+8/21:Wendy's:22.92
