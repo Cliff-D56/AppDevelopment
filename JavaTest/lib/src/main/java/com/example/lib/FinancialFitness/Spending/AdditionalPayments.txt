@@ -1,4 +1,4 @@
 8/1:Paycheck:543.38
 8/15:Paycheck:367.45
-8/29:Paycheck:0
+8/29:Paycheck:319.97
 8/16:Refunds:70.06

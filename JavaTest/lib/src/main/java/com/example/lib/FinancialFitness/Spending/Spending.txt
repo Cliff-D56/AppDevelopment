@@ -32,3 +32,6 @@
 8/21:Gas:39.44
 8/21:Wendy's:22.92
 8/23:Amazon:18.21
+8/24:Circle K:9.22
+8/25:Range USA:5.42
+8/25:Home Depot:111.75
