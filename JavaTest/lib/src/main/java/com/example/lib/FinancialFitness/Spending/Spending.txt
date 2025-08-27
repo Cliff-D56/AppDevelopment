@@ -35,3 +35,5 @@
 8/24:Circle K:9.22
 8/25:Range USA:5.42
 8/25:Home Depot:111.75
+8/26:Home Depot:6.72
+8/26:Walmart:118.56
