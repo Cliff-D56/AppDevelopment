@@ -37,3 +37,11 @@
 8/25:Home Depot:111.75
 8/26:Home Depot:6.72
 8/26:Walmart:118.56
+8/27:Home Depot:20.24
+8/27:Gas:14.26
+8/27:Split Fiction:54.11
+8/28:Gas:20.83
+8/28:Shipley's:7.76
+8/28:Max:200
+8/29:Alternator:349.44
+8/29:Little Caesar's:24.87
