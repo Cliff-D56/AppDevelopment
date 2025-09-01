@@ -1,8 +1,7 @@
 Initial Calendar
-1 - 2 AUGUST Budget for the week is $17.04
-3 - 9 AUGUST Budget for the week is $59.640003
-10 - 16 AUGUST Budget for the week is $59.640003
-17 - 23 AUGUST Budget for the week is $59.640003
-24 - 30 AUGUST Budget for the week is $59.640003
-31 - 31 AUGUST Budget for the week is $8.52
-I can spend $8.52 per day to save $500.0 this month
+1 - 6 SEPTEMBER Budget for the week is $118.5
+7 - 13 SEPTEMBER Budget for the week is $138.25
+14 - 20 SEPTEMBER Budget for the week is $138.25
+21 - 27 SEPTEMBER Budget for the week is $138.25
+28 - 30 SEPTEMBER Budget for the week is $59.25
+I can spend $19.75 per day to save $500.0 this month

@@ -50,6 +50,9 @@ public class FinancialFitnessMethods {
         float total = 0.0F;
         for (String payment : payments) {
             String[] split = payment.split(":");
+//            if(Float.parseFloat(split[2])>1000){
+//                split[2] = String.valueOf(Float.parseFloat(split[2])/6);
+//            }
             total += Float.parseFloat(split[2]);
             System.out.printf("%-4s | %-20s| $%-6s |%n", split[0], split[1], split[2]);
         }

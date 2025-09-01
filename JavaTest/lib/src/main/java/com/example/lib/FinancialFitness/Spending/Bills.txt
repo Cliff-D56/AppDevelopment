@@ -7,7 +7,7 @@
 7:Gold:4.17
 8:Amazon:16.08
 9:Google:2.12
-10:Gym:54.11
+10:Gym:0
 11:Robinhood Invest (Savings):200
 12:Rent (Bank):400
 13:Insurance:175
