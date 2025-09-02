@@ -23,11 +23,13 @@ public class FinancialFitnessMethods {
         float moneySaved = (income-bills) - moneySpent;
         float moneyPerDay = Math.round(moneyRemaining / daysRemaining * 100) / 100.0F;
 //            System.out.println(moneyLeftOver);
-        String msg = moneyRemaining < 0 ? "You've Exceeded your spending and are behind $" + moneyRemaining :
+        String msg = moneyRemaining < 0 ? "You've Exceeded your spending and are behind $" + (moneyRemaining*-1) :
                 "I can spend $" + moneyPerDay + " per day for the next " + daysRemaining + " days to save $" + goal + " this month";
         System.out.println(msg);
         System.out.println(offset.format(DateTimeFormatter.ofLocalizedDateTime(FormatStyle.MEDIUM)));
-        System.out.printf("I've saved $%s so far and can only spend $%s as of now%n",moneySaved,moneySaved-goal);
+        if(moneyRemaining >0){
+            System.out.printf("I've saved $%s so far and can only spend $%s as of now%n",moneySaved,moneySaved-goal);
+        }
         return moneyPerDay;
     }
 
