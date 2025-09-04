@@ -4,3 +4,4 @@
 8/31:Amazon:21.44
 9/1:Gas:39.23
 9/1:Sam's Club:17.36
+9/3:Goodwill:4.32
