@@ -5,3 +5,8 @@
 9/1:Gas:39.23
 9/1:Sam's Club:17.36
 9/3:Goodwill:4.32
+9/8:Sam's Club:18.04
+9/8:Sam's Club:24.76
+9/8:Sam's Club:35.76
+9/8:Hotel:72.45
+9/8:Pizza:11.70
