@@ -10,3 +10,8 @@
 9/8:Sam's Club:35.76
 9/8:Hotel:72.45
 9/8:Pizza:11.70
+9/9:Creekwood Apartments:225
+9/10:Circle K:12.70
+9/10:Little Caesar's:25.96
+9/10:Dog Tags:13.62
+9/11:Amazon:28.87
