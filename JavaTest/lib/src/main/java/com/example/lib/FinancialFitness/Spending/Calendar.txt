@@ -1,7 +1,8 @@
 Initial Calendar
-1 - 6 SEPTEMBER Budget for the week is $118.5
-7 - 13 SEPTEMBER Budget for the week is $138.25
-14 - 20 SEPTEMBER Budget for the week is $138.25
-21 - 27 SEPTEMBER Budget for the week is $138.25
-28 - 30 SEPTEMBER Budget for the week is $59.25
-I can spend $19.75 per day to save $500.0 this month
+1 - 1 NOVEMBER Budget for the week is $-16.19
+2 - 8 NOVEMBER Budget for the week is $-113.33001
+9 - 15 NOVEMBER Budget for the week is $-113.33001
+16 - 22 NOVEMBER Budget for the week is $-113.33001
+23 - 29 NOVEMBER Budget for the week is $-113.33001
+30 - 30 NOVEMBER Budget for the week is $-16.19
+You've Exceeded your spending and are behind $-16.19

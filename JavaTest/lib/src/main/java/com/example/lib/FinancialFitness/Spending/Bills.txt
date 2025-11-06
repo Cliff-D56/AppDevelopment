@@ -1,14 +1,16 @@
-1:Public Storage:152
-2:Karma (Savings):100
-3:Crunchyroll:12.98
-4:IRA (Savings):100
-5:Acorns (Savings):60
-6:Phone (Bank):130
-7:Gold:4.17
-8:Amazon:16.08
-9:Google:2.12
-10:Gym:0
-11:Robinhood Invest (Savings):200
-12:Rent (Bank):400
-13:Insurance:175
-14:Sezzle:120
+1:Karma (Savings):100
+2:Crunchyroll:12.98
+3:IRA (Savings):100
+4:Acorns (Savings):80
+5:Phone (Bank):130
+6:Gold:4.17
+7:Amazon:16.08
+8:Google:2.12
+9:Gym:0
+10:Robinhood Invest (Savings):300
+11:Rent (Bank):1260
+12:Insurance:175
+13:Sezzle:0
+14:ChatGPT:21.28
+15:Wifi:50.26
+16:Power:120

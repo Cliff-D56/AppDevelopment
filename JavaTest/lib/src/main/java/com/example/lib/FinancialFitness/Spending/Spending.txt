@@ -1,17 +1,4 @@
-8/29:Gun Wishlist:1512.23
-8/29:Gas:13.26
-8/30:McDonald's:6.26
-8/31:Amazon:21.44
-9/1:Gas:39.23
-9/1:Sam's Club:17.36
-9/3:Goodwill:4.32
-9/8:Sam's Club:18.04
-9/8:Sam's Club:24.76
-9/8:Sam's Club:35.76
-9/8:Hotel:72.45
-9/8:Pizza:11.70
-9/9:Creekwood Apartments:225
-9/10:Circle K:12.70
-9/10:Little Caesar's:25.96
-9/10:Dog Tags:13.62
-9/11:Amazon:28.87
+11/1:Gas:6.33
+11/3:Pizza:10.81
+11/3:Gas:36.11
+11/3:Walmart:51.54
