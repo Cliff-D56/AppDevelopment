@@ -1,6 +1,6 @@
 1:Karma (Savings):100
 2:Crunchyroll:12.98
-3:IRA (Savings):100
+3:Robinhood IRA (Savings):100
 4:Acorns (Savings):80
 5:Phone (Bank):130
 6:Gold:4.17
