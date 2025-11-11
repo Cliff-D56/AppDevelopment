@@ -59,7 +59,7 @@ public class FinancialFitnessMethods {
 //                split[2] = String.valueOf(Float.parseFloat(split[2])/6);
 //            }
             total += Float.parseFloat(split[2]);
-            System.out.printf("%-4s | %-20s| $%-7s |%n", split[0], split[1], split[2]);
+            System.out.printf("%-5s | %-20s| $%-7s |%n", split[0], split[1], split[2]);
         }
         System.out.printf("%nI've spent $%s over the course of this month%n", total);
         return total;

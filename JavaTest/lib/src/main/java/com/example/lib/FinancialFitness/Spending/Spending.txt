@@ -4,3 +4,5 @@
 11/3:Walmart:51.54
 11/7:Walmart:64.77
 11/7:Pizza:12.98
+11/10:Chick-fil-A:9.83
+11/11:McDonald's:6.04
