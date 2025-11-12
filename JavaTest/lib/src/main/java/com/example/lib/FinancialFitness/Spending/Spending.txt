@@ -6,3 +6,5 @@
 11/7:Pizza:12.98
 11/10:Chick-fil-A:9.83
 11/11:McDonald's:6.04
+11/11:Sam's Club:6.88
+11/11:Gas:37.66
