@@ -12,3 +12,8 @@
 11/13:QuizAi:43.29
 11/15:Amazon:62.75
 11/16:Amazon:30.30
+11/17:Pizza:10.81
+11/18:Honeybun:2.1
+11/19:Mcdonalds:12.74
+11/19:Amazon:19.7
+11/20:Mcdonalds:6.04
