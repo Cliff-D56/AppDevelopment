@@ -116,3 +116,22 @@ September 2025
 
 November 2025
 
+11/1:Gas:6.33
+11/3:Pizza:10.81
+11/3:Gas:36.11
+11/3:Walmart:51.54
+11/7:Walmart:64.77
+11/7:Pizza:12.98
+11/10:Chick-fil-A:9.83
+11/11:McDonald's:6.04
+11/11:Sam's Club:6.88
+11/11:Gas:37.66
+11/12:Pizza:10.81
+11/13:QuizAi:43.29
+11/15:Amazon:62.75
+11/16:Amazon:30.30
+11/17:Pizza:10.81
+11/18:Honeybun:2.1
+11/19:Mcdonalds:12.74
+11/19:Amazon:19.7
+11/20:Mcdonalds:6.04

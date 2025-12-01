@@ -1,2 +1,2 @@
-1:Disability:1395.93
-2:GI Bill:700
+1:Disability:1277.93
+2:GI Bill:775

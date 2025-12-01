@@ -1,8 +1,7 @@
 Initial Calendar
-1 - 1 NOVEMBER Budget for the week is $-16.19
-2 - 8 NOVEMBER Budget for the week is $-113.33001
-9 - 15 NOVEMBER Budget for the week is $-113.33001
-16 - 22 NOVEMBER Budget for the week is $-113.33001
-23 - 29 NOVEMBER Budget for the week is $-113.33001
-30 - 30 NOVEMBER Budget for the week is $-16.19
-You've Exceeded your spending and are behind $-16.19
+1 - 6 DECEMBER Budget for the week is $-95.64
+7 - 13 DECEMBER Budget for the week is $-111.58
+14 - 20 DECEMBER Budget for the week is $-111.58
+21 - 27 DECEMBER Budget for the week is $-111.58
+28 - 31 DECEMBER Budget for the week is $-63.76
+You've Exceeded your spending and are behind $-15.94

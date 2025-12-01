@@ -13,4 +13,4 @@
 13:Sezzle:0
 14:ChatGPT:21.28
 15:Wifi:50.26
-16:Power:120
+16:Power:90
