@@ -1,2 +1,2 @@
-9/12:Paycheck:0
-9/26:Paycheck:0
+1/2:Paycheck:132.97
+12/19:Paycheck:0

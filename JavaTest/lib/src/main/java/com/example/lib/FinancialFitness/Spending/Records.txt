@@ -135,3 +135,12 @@ November 2025
 11/19:Mcdonalds:12.74
 11/19:Amazon:19.7
 11/20:Mcdonalds:6.04
+
+December 2025
+
+11/30:Walmart:104.90
+12/1:Pizza:10.81
+12/1:Gas:36.73
+12/1:Pizza:10.81
+
+January 2026
