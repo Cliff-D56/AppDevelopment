@@ -14,3 +14,4 @@
 14:ChatGPT:21.28
 15:Wifi:50.26
 16:Power:90
+17:School (Bank):200

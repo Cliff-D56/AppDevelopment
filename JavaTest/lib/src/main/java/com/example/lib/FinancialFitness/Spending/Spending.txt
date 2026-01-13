@@ -6,3 +6,10 @@
 1/2:Gas:31.07
 1/2:Walmart:303.50
 1/3:Donuts:8.99
+1/4:Amazon:25.23
+1/6:State Inspection:13.50
+1/6:Sticker:78.25
+1/7:Lunch:11.57
+1/12:Gas:7.87
+1/12:Pizza:10.81
+1/13:Gas:38.12
