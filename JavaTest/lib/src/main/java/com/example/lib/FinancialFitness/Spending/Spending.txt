@@ -12,3 +12,4 @@
 2/9:Amazon:189.7
 2/9:Raising Cane's:11.57
 2/10:Rent:25.44
+2/10:Walmart:19.80
