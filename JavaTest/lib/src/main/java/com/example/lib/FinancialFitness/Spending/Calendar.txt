@@ -1,7 +1,6 @@
 Initial Calendar
-1 - 3 JANUARY Budget for the week is $-71.55
-4 - 10 JANUARY Budget for the week is $-166.95001
-11 - 17 JANUARY Budget for the week is $-166.95001
-18 - 24 JANUARY Budget for the week is $-166.95001
-25 - 31 JANUARY Budget for the week is $-166.95001
-You've Exceeded your spending and are behind $-23.85
+1 - 7 FEBRUARY Budget for the week is $-184.87001
+8 - 14 FEBRUARY Budget for the week is $-184.87001
+15 - 21 FEBRUARY Budget for the week is $-184.87001
+22 - 28 FEBRUARY Budget for the week is $-184.87001
+You've Exceeded your spending and are behind $-26.41

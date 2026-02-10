@@ -144,3 +144,22 @@ December 2025
 12/1:Pizza:10.81
 
 January 2026
+
+1/1:Power:75.43
+1/1:Pizza:12.98
+1/1:Gas Station:6.44
+1/1:Gas Station:4.31
+1/2:Dennys:45
+1/2:Gas:31.07
+1/2:Walmart:303.50
+1/3:Donuts:8.99
+1/4:Amazon:25.23
+1/6:State Inspection:13.50
+1/6:Sticker:78.25
+1/7:Lunch:11.57
+1/12:Gas:7.87
+1/12:Pizza:10.81
+1/13:Gas:38.12
+
+Febuary 2026
+
