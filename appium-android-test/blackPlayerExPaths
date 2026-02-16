@@ -1,0 +1,19 @@
+Hamburger menu
+new UiSelector().className("android.widget.ImageView").instance(0)
+//android.widget.LinearLayout[@resource-id="com.kodarkooperativet.blackplayerex:id/action_bar_main"]/android.widget.LinearLayout[1]/android.widget.ImageView[1]
+00000000-0000-001c-ffff-ffff0000000b
+
+Settings
+new UiSelector().text("Settings")
+//android.widget.TextView[@resource-id="com.kodarkooperativet.blackplayerex:id/tv_slidingmenu_itemtext" and @text="Settings"]
+00000000-0000-001c-ffff-ffff000002da
+
+Advanced
+new UiSelector().className("android.widget.RelativeLayout").instance(7)
+//android.widget.ListView[@resource-id="android:id/list"]/android.widget.LinearLayout[9]/android.widget.RelativeLayout 
+00000000-0000-001d-ffff-ffff00000132
+
+Reset Audio Decoder
+new UiSelector().className("android.widget.RelativeLayout").instance(6)
+//android.widget.ListView[@resource-id="android:id/list"]/android.widget.LinearLayout[9]/android.widget.RelativeLayout
+00000000-0000-0020-ffff-ffff000001e9
