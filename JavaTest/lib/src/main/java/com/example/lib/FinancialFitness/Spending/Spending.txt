@@ -1,15 +1,9 @@
-2/2:Gas:5.93
-2/2:Gas:10
-2/4:Haircut:30
-2/4:Gas:37.04
-2/4:Walmart:74.56
-2/4:Chick fil A:14.28
-2/5:Amazon:55.17
-2/5:Mcdonald's:11.45
-2/7:Cheddar's:31.90
-2/7:Mcdonald's:2.91
-2/8:Walmart:38.93
-2/9:Amazon:189.7
-2/9:Raising Cane's:11.57
-2/10:Rent:25.44
-2/10:Walmart:19.80
+9/1:Snack:2.19
+9/1:Walmart:26.19
+9/2:Donuts:14
+9/2:Socks:12.65
+9/2:Shoes:151
+9/2:Chicken Express:36.77
+9/2:Rage Room:100.26
+9/2:Dominos:29.73
+9/2:Range USA:35.70

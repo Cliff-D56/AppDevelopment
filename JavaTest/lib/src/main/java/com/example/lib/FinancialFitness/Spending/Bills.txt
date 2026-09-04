@@ -1,5 +1,5 @@
 1:Karma (Savings):100
-2:Crunchyroll:12.98
+2:Crunchyroll:14.98
 3:Robinhood IRA (Savings):200
 4:Acorns (Savings):80
 5:Phone (Bank):95
@@ -10,7 +10,7 @@
 10:Robinhood Invest (Savings):300
 11:Rent (Bank):1260
 12:Insurance:175
-13:Sezzle:0
+13:Sezzle:150
 14:ChatGPT:21.28
 15:Wifi:50.26
 16:Power:90

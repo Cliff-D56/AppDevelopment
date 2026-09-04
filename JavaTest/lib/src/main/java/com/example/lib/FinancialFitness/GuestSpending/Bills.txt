@@ -1,0 +1,7 @@
+1:Mother:160
+2:Subscription:27.06
+3:Spotify:14.06
+4:MineCraft:8.65
+5:Parmaount:9:73
+6:Uber:9.99
+7:Savings:400

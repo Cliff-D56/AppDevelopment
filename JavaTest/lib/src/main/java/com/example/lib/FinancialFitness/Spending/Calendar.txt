@@ -1,6 +1,7 @@
 Initial Calendar
-1 - 7 FEBRUARY Budget for the week is $-184.87001
-8 - 14 FEBRUARY Budget for the week is $-184.87001
-15 - 21 FEBRUARY Budget for the week is $-184.87001
-22 - 28 FEBRUARY Budget for the week is $-184.87001
-You've Exceeded your spending and are behind $-26.41
+1 - 5 SEPTEMBER Budget for the week is $-148.54999
+6 - 12 SEPTEMBER Budget for the week is $-207.96997
+13 - 19 SEPTEMBER Budget for the week is $-207.96997
+20 - 26 SEPTEMBER Budget for the week is $-207.96997
+27 - 30 SEPTEMBER Budget for the week is $-118.84
+You've Exceeded your spending and are behind $-29.71
